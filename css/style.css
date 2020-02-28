@@ -359,6 +359,7 @@ body {
 }
 
 .bucket-btn-1 {
+  margin-bottom: 20px;
   display: inline-block;
   padding: 10px 15px;
   font-size: 14px;
@@ -497,8 +498,9 @@ body {
 }
 
 .mrbucket-main-title {
+  margin-top: 60px;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 .mrbucket-main-title h2 {
   font-size: 24px;
@@ -511,7 +513,7 @@ body {
 .mrbucket-main-title h2 .bucket-line {
   display: block;
   width: 100%;
-  margin: 15px auto 10px;
+  margin: 10px auto 10px;
   position: relative;
   border-bottom: 2px solid #FFF;
 }
@@ -1468,7 +1470,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
+  height: 96%;
   width: 11px;
   border: 3px solid #3a4a5d;
   -webkit-border-radius: 5px;
@@ -1541,7 +1543,6 @@ body {
 }
 
 .take-my-resume {
-  margin: 30px 0;
   text-align: center;
 }
 
@@ -1551,9 +1552,9 @@ body {
   background-size: cover;
 }
 .bucket-skills .technical-skills .progress-bar-container {
-  padding-top: 35px;
+  padding-top: 20px;
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .bucket-skills .technical-skills .progress-bar-container .progress {
   height: 5px;
@@ -2523,7 +2524,7 @@ body {
 }
 .bucket-demo2 .main-page-content > section, .bucket-demo2 .main-page-content > div,
 .bucket-demo2 .main-page-content .overlay {
-  padding: 120px 0;
+  padding: 20px 0;
 }
 .bucket-demo2 .main-page-content > section.small-section, .bucket-demo2 .main-page-content > div.small-section,
 .bucket-demo2 .main-page-content .overlay.small-section {
@@ -2837,7 +2838,7 @@ body {
   }
 
   .my-information {
-    padding: 60px 0;
+    padding: 10px 0;
   }
   .my-information .bucket-info-detail {
     padding-top: 15px;
