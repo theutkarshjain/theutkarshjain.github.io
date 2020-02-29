@@ -936,9 +936,11 @@ body {
 }
 
 /* 5.2 My Information */
-.my-information {
+
+/*.my-information {
   padding: 90px 0;
-}
+}*/
+
 .my-information .my-image img {
   opacity: 0.7;
   -webkit-transition: all 0.25s ease-in-out 0s;
@@ -968,6 +970,12 @@ body {
   font-style: italic;
 }
 
+@media only screen and (max-width: 700px){
+	.my-information {
+		margin: 0 9%;
+	}
+	
+}
 /* 5.3 My Service */
 .bucket-service {
   background: url("../images/bg1.jpg") center center no-repeat fixed;
@@ -2748,7 +2756,7 @@ body {
 
   .bucket-demo2 .main-page-content > section, .bucket-demo2 .main-page-content > div,
   .bucket-demo2 .main-page-content .overlay {
-    padding: 80px 0;
+    padding: 10px 0;
   }
   .bucket-demo2 .main-page-content > section.small-section, .bucket-demo2 .main-page-content > div.small-section,
   .bucket-demo2 .main-page-content .overlay.small-section {
@@ -2941,7 +2949,9 @@ body {
     margin-top: 15px;
   }
   .bucket-skills .technical-skills .progress-bar-container h3 {
-    font-size: 14px;
+    font-size: 17px;
+    margin-left: -31%;
+    margin-top: -10%;
   }
 
   .blog .bucket-container {
